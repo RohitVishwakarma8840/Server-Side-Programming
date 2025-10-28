@@ -22,6 +22,10 @@ $conn = "";
 if($conn){
     echo "Connection Successful";
 }
+
+
+
+
 // }else{
 //     echo "Could not connect";
 // }
