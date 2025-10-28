@@ -1,6 +1,7 @@
 <?php
 
-include("headers.html")
+include("headers.html");
+setcookie("fav-food","pizza", time()+ (86400)*2,"/");
 
 ?>
 
@@ -13,11 +14,23 @@ include("headers.html")
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <br>
+    <br>
     <h2>This is the Home Page of the Website</h2>
+    <br>
+    <br>
+
+    <hr>
     
 </body>
-</html>
+</html> 
 <?php
 
+  $password = "something";
+
+  $hashed = 
+
+
 include("footer.html")
+
 ?>
