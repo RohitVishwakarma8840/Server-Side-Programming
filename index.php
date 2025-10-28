@@ -43,11 +43,23 @@
 //     echo $_POST["password"];
 // }
 
+ 
+ function rohit($owner,$age){
+    echo "The function is invokedd by {$owner} and age is {$age}";
+ }
+
  if(isset($_GET["number"])){
     $price = $_GET["number"];
     $amount = $price * 17;
     echo "The final price is {$amount}";
+
+    
+
+    rohit("rohit",22);
  }
+
+
+
 
 
 ?>
