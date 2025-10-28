@@ -1,0 +1,26 @@
+ <?php
+
+// 
+$name = "Rohit";
+$value = 22;
+$gpa = 9.5;
+$price = 99.99;
+$online = false;
+$offline  = true;
+
+
+
+
+
+echo "Hello  {$name} <br>";
+// echo "\n";
+echo "value is {$value} <br>";
+echo "GPA is {$gpa} <br>";
+echo "Price is {$price} <br>";
+echo "The value of Boolean is ${online}<br>";
+echo "The value of offline is ${offline}<br>";
+
+
+
+
+?> 
